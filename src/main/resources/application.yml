@@ -2,10 +2,12 @@ spring:
   mail:
     host: smtp.qq.com
     username: 309219094@qq.com
-    password:
+    password: qiddydstvrwnbibc
+    default-encoding: utf-8
     #QQ邮箱需要配置ssl安全
     properties:
       mail:
         smtp:
           ssl:
             enable: true
+
